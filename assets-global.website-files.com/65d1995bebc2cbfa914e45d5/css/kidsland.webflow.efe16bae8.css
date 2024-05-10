@@ -368,6 +368,7 @@ pre.w-code-block code {
   right: 12px !important;
   overflow: visible !important;
   transform: none !important;
+  display: none !important;
 }
 
 .w-webflow-badge > img {
@@ -4005,7 +4006,7 @@ figcaption {
 
 .heading-style-h5.in-home-1 {
   color: var(--white);
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d42ca58cc7033ddfc4b3cf_Hero text bg.svg");
+  background-image: url("../../../../../assets/fondotexto.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8562,4 +8563,24 @@ figcaption {
   #w-node-feb13754-4803-d60e-9a65-aa3d0b7b0b2d-8172f02f {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
+}
+
+.navigation-brand-logo-wrapper{
+  width: 19%;
+}
+
+
+.header-inner-image-wrapper{
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .navigation-brand-logo-wrapper{
+    width: 25%;
+  }  
+}
+
+.button{
+  background-color: #fa9831 !important;
 }
