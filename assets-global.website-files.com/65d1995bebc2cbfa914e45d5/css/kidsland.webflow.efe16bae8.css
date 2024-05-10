@@ -8579,8 +8579,16 @@ figcaption {
   .navigation-brand-logo-wrapper{
     width: 25%;
   }  
+
+  #roadway{
+    display: none !important;
+  }
 }
 
 .button{
   background-color: #fa9831 !important;
+}
+
+.footer-bottom-content{
+  display: none !important;
 }
