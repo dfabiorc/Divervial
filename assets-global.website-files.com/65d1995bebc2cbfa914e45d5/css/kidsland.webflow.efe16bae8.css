@@ -8585,12 +8585,17 @@ figcaption {
   }
 
   .footer-brand-logo-wrapper{
-    display: none !important;
+    max-width: 150px !important;
+    padding-bottom: 20px !important;
   }
 
 
   #info-contact-footer>h5{
     margin-top: 20px !important;
+  }
+
+  .footer-link-menu-wrapper{
+    display: none !important;
   }
 
 }
