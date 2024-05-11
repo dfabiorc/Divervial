@@ -8583,6 +8583,16 @@ figcaption {
   #roadway{
     display: none !important;
   }
+
+  .footer-brand-logo-wrapper{
+    display: none !important;
+  }
+
+
+  #info-contact-footer>h5{
+    margin-top: 20px !important;
+  }
+
 }
 
 .button{
@@ -8591,4 +8601,33 @@ figcaption {
 
 .footer-bottom-content{
   display: none !important;
+}
+
+
+@media only screen and (min-width: 700px) {
+  #w-node-a4558efd-0684-d0ec-a3b4-659a50578028-50578011{
+    margin-top: 83px;
+    margin-left: 100px !important;
+  }
+    .footer-menu-link{
+      display: grid !important;
+      grid-template-columns: 1fr 1fr !important;
+      column-gap: 200px !important;
+    }
+
+    #menu-text-footer{
+      margin-left: 100px !important;
+    }
+
+    #info-contact-footer{
+      margin-top: 100px !important;
+    }
+
+    #info-contact-footer>h5{
+      margin-top: 20px !important;
+      max-width: 800px !important;
+    }
+
+
+
 }
