@@ -4673,7 +4673,6 @@ figcaption {
 }
 
 .section-hero.v2 {
-  background-image: url("https://assets-global.website-files.com/65d1995bebc2cbfa914e45d5/65d6d8bfa7607dc102c6ad0f_Hero Image v2.webp");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -8598,6 +8597,7 @@ figcaption {
     display: none !important;
   }
 
+
 }
 
 .button{
@@ -8632,7 +8632,6 @@ figcaption {
       margin-top: 20px !important;
       max-width: 800px !important;
     }
-
 
 
 }
