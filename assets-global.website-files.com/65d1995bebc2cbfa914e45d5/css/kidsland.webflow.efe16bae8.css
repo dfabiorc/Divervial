@@ -8634,5 +8634,8 @@ figcaption {
       max-width: 800px !important;
     }
 
+    #footer-direccion-margen{
+      padding: 0 100px 0 300px !important;
+    }
 
 }
