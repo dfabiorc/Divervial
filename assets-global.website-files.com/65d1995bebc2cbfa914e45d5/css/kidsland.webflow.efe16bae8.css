@@ -8617,11 +8617,12 @@ figcaption {
     .footer-menu-link{
       display: grid !important;
       grid-template-columns: 1fr 1fr !important;
-      column-gap: 200px !important;
+      column-gap: 50px !important;
     }
 
     #menu-text-footer{
       margin-left: 100px !important;
+      color :#0c1a40 !important;
     }
 
     #info-contact-footer{
