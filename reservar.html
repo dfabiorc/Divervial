@@ -36,10 +36,92 @@
 <script>
   $(function () {
     var disabledDatesParc = ["2024-01-01", "2024-04-01", "2024-03-29", "2024-05-01", "2024-05-20", "2024-06-24", "2024-08-18", "2024-09-11", "2024-09-24", "2024-10-12", "2024-11-01", "2024-12-06", "2024-12-25", "2024-12-26"];
-    var disabledDatesImp = ["2024-05-15"];
+    var disabledDatesImp = [
+  "2024-01-01",
+  "2024-01-02",
+  "2024-01-03",
+  "2024-01-04",
+  "2024-01-05",
+  "2024-02-12",
+  "2024-03-25",
+  "2024-03-26",
+  "2024-03-27",
+  "2024-03-28",
+  "2024-03-29",
+  "2024-04-01",
+  "2024-05-01",
+  "2024-05-20",
+  "2024-06-24",
+  "2024-06-25",
+  "2024-06-26",
+  "2024-06-27",
+  "2024-06-28",
+  "2024-07-01",
+  "2024-07-02",
+  "2024-07-03",
+  "2024-07-04",
+  "2024-07-05",
+  "2024-07-08",
+  "2024-07-09",
+  "2024-07-10",
+  "2024-07-11",
+  "2024-07-12",
+  "2024-07-15",
+  "2024-07-16",
+  "2024-07-17",
+  "2024-07-18",
+  "2024-07-19",
+  "2024-07-22",
+  "2024-07-23",
+  "2024-07-24",
+  "2024-07-25",
+  "2024-07-26",
+  "2024-07-29",
+  "2024-07-30",
+  "2024-07-31",
+  "2024-08-01",
+  "2024-08-02",
+  "2024-08-05",
+  "2024-08-06",
+  "2024-08-07",
+  "2024-08-08",
+  "2024-08-09",
+  "2024-08-12",
+  "2024-08-13",
+  "2024-08-14",
+  "2024-08-15",
+  "2024-08-16",
+  "2024-08-19",
+  "2024-08-20",
+  "2024-08-21",
+  "2024-08-22",
+  "2024-08-23",
+  "2024-08-26",
+  "2024-08-27",
+  "2024-08-28",
+  "2024-08-29",
+  "2024-08-30",
+  "2024-08-31",
+  "2024-09-02",
+  "2024-09-03",
+  "2024-09-04",
+  "2024-09-05",
+  "2024-09-06",
+  "2024-09-11",
+  "2024-09-24",
+  "2024-11-01",
+  "2024-12-06",
+  "2024-12-23",
+  "2024-12-24",
+  "2024-12-25",
+  "2024-12-26",
+  "2024-12-27",
+  "2024-12-30",
+  "2024-12-31"
+];
     var disabledDates = disabledDatesParc;
-    
-    $("#activitat").change(function() {
+
+    $("#activitat").change(function () {
       if ($(this).val() == "parcvial") {
         disabledDates = disabledDatesParc;
       } else if ($(this).val() == "implementacio") {
@@ -142,7 +224,7 @@
       </div>
     </div>
   </div>
-  <<div class="section-hero-banar is-price">
+  <div class="section-hero-banar is-price">
     <div class="padding-global">
       <div class="container-large">
         <div class="padding-section-medium">
@@ -171,12 +253,11 @@
             class="input w-input" maxlength="256" name="name" data-name="Name" placeholder="Escriu el teu nom"
             type="text" id="name" required=""></div>
         <div class="contact-field-wrapper"><label for="Email" class="text-saize-bold">Adreça electrònica</label><input
-            class="input w-input" maxlength="256" name="Email" data-name="Email" placeholder="Escriu la teva adreça electrònica"
-            type="email" id="Email" required=""></div>
+            class="input w-input" maxlength="256" name="Email" data-name="Email"
+            placeholder="Escriu la teva adreça electrònica" type="email" id="Email" required=""></div>
         <div class="contact-field-wrapper">
           <label for="activitat" class="text-saize-bold">Quin servei vols?</label>
-          <select
-            class="input w-input" maxlength="256" name="Phone-Number" data-name="Escriu el teu telèfon"
+          <select class="input w-input" maxlength="256" name="Phone-Number" data-name="Escriu el teu telèfon"
             selected="Parc Vial" type="tel" id="activitat" required="">
             <option value="parcvial">Parc Vial</option>
             <option value="implementacio">Implementació</option>
@@ -184,8 +265,7 @@
         </div>
         <div class="contact-field-wrapper">
           <label for="subject" class="text-saize-bold">Data</label>
-          <input
-            class="input w-input datepickerfecha" type="text" id="datepicker-parque"  required="">
+          <input class="input w-input datepickerfecha" type="text" id="datepicker-parque" required="">
         </div>
       </div><input type="submit" data-wait="Esperi..." class="button w-button" value="Enviar">
     </form>
@@ -196,6 +276,7 @@
       <div>Oops! Something went wrong while submitting the form.</div>
     </div>
   </div>
+  <button class="back-to-top" type="button"></button>
   <div class="section-footer">
     <div id="footer-direccion-margen" class="padding-global">
       <div class="container-large">
