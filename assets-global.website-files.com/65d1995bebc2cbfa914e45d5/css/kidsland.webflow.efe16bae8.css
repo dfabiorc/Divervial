@@ -8638,4 +8638,44 @@ figcaption {
       padding: 0 100px 0 300px !important;
     }
 
+    .teacher-collection-list {
+      display: grid !important;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto auto;
+      grid-gap: 10px; /* Adjust the gap between grid items as needed */
+      row-gap: 100px;
+    }
+    
+    #teacher-1 {
+      grid-column: 1 / span 1;
+      grid-row: 1;
+    }
+    
+    #teacher-2 {
+      grid-column: 2 / span 1;
+      grid-row: 1;
+    }
+    
+    #teacher-3 {
+      grid-column: 3 / span 1;
+      grid-row: 1;
+    }
+    
+    #teacher-4 {
+      grid-column: 1 / span 1;
+      grid-row: 2;
+      justify-self: center !important; /* Center horizontally in the grid cell */
+    }
+    
+    #teacher-5 {
+      grid-column: 2 / span 1;
+      grid-row: 2;
+      justify-self: center !important; /* Center horizontally in the grid cell */
+    }
+    
+    
+    
+    
+
 }
+
