@@ -3543,6 +3543,10 @@ figcaption {
   margin-bottom: 2.25rem;
 }
 
+.margin-bottom.margin-xlarge {
+  margin-bottom: 5.25rem;
+}
+
 .margin-bottom.margin-xxsmall {
   margin-bottom: .75rem;
 }
@@ -7188,6 +7192,7 @@ figcaption {
   .price-item._01 {
     background-position: 50%;
     width: 100%;
+    
   }
 
   .price-item._02, .price-item._03 {
@@ -8679,3 +8684,6 @@ figcaption {
 
 }
 
+.index-foto-per-que{
+  border-radius: 10px;
+}
