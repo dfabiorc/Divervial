@@ -1614,6 +1614,11 @@ textarea.w-input, textarea.w-select {
   left: 0;
 }
 
+.services-image {
+  max-width: 50%;
+  border-radius: 10px;
+}
+
 .w-lightbox-thumbnail .w-lightbox-tall {
   width: 100%;
   top: 50%;
@@ -5379,6 +5384,10 @@ figcaption {
 
 .support-card-item.boder-line-color-yellow {
   border-color: var(--yello-color);
+}
+
+.blog-image{
+  border-radius: 10px;
 }
 
 .support-area-details {
